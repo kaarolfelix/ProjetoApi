@@ -3,12 +3,36 @@ const database = require('../models')
 class TatuadoresControllers {
     static async pegaTodosOsTatuadores(req, res){
       try {
-        const todosTatuadores = await database.tatuadores.findAll()
+        const todosTatuadores = await database.Tatuadores.findAll()
         return res.status(200).json(todosTatuadores)
       } catch (error) {
         return res.status(500).json(error.message)
         }
       }
+
+      static async mostraUmTatuador(req, res) {
+        const { id } = req.params
+        try {
+          const umTatuador = await database.Tatuadores.findOne( { 
+            where: { 
+              id: Number(id) 
+            }
+          })
+          return res.status(200).json(umTatuador)
+        } catch (error) { 
+          return res.status(500).json(error.message)
+        }
+      }
+
+      static async criaTatuador(req, res) {
+        const novoTatuador = req.body
+        try {
+          const novoTatuadorCriado = await database.Tatuadores.create(novoTatuador)
+          return res.status(200).json(novoTatuadorCriado)
+        } catch (error) {
+         return res.status(500).json(error.message)
+        }
+      }
     }    
-    
+  
     module.exports = TatuadoresControllers
