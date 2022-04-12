@@ -10,15 +10,26 @@
 ## #Descrição
 Projeto de encerramento módulo 4. escolhemos o tema Studio de tatuagens, com as entidades: Atendimento, Tatuadores, Fornecedores e Produtos. Para o desenvolvimento foi utilizado JavaScript com Node.js como linguagem, o MYSQL como banco de dados e também o express como framework. 
 
- #Ferramentas utilizadas
+ ### Ferramentas utilizadas
 - [Express](https://expressjs.com/)
 - [Node.js](https://nodejs.org/en/docs/)
 - [Sequelize](https://sequelize.org/)
 - [MYSQL](https://dev.mysql.com/downloads/workbench/)
 - [Postman](https://www.postman.com/)
 
-### #Dependências do projeto
-     npm run start
+### Clone este repositório em sua máquina: 
+      https://github.com/kaarolfelix/ProjetoApi.git 
+
+### Dependências do projeto
+Para iniciar o projeto é necessário a instalação do [Node.js](https://nodejs.org/en/docs/), utilizamos a versão 16.14.2
+#### Após instalado, entre no seu terminal e de o comando
+     
+     node –version 
 
 ### #Rotas da API
-   
+
+``` js
+router.get('/Tatuadores', TatuadoresControllers.pegaTodosOsTatuadores)
+router.get('/Tatuadores/:id', TatuadoresControllers.mostraUmTatuador)
+router.post('/Tatuadores', TatuadoresControllers.criaTatuador)
+router.put('/Tatuadores/:id', TatuadoresControllers.atualizeTatuadores)
