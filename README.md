@@ -7,7 +7,7 @@
   <a href="#rotas-da-API"> Rotas da aplicação </a> |
   <a href="#Ferramentas utilizadas"> Ferramentas utilizadas </a>
 
-## #Descrição
+## 
 Projeto de encerramento módulo 4. escolhemos o tema Studio de tatuagens, com as entidades: Atendimento, Tatuadores, Fornecedores e Produtos. Para o desenvolvimento foi utilizado JavaScript com Node.js como linguagem, o MYSQL como banco de dados e também o express como framework. 
 
  ### Ferramentas utilizadas
@@ -24,7 +24,9 @@ Projeto de encerramento módulo 4. escolhemos o tema Studio de tatuagens, com as
 Para iniciar o projeto é necessário a instalação do [Node.js](https://nodejs.org/en/docs/), utilizamos a versão 16.14.2
 #### Após instalado, entre no seu terminal e de o comando
      
-     node –version 
+     
+ node --versin             
+
 
 ### #Rotas da API
 
