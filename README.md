@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/93998124/162990972-d54dbfeb-4b17-4afc-97c1-1bf291f329ed.png)
 
 
-      Testando aplicação
+      
   <a href="#Descrição"> Descrição </a> |
   <a href="#rotas-da-API"> Rotas da aplicação </a> |
   <a href="#Ferramentas utilizadas"> Ferramentas utilizadas </a>
@@ -64,6 +64,7 @@ router.put('/Tatuadores/:id', TatuadoresControllers.atualizeTatuadores);
 - [Postman](https://www.postman.com/)
 
 
+##### Utilize o  Postman para realizar as requisições  das rotas
 
 
 
