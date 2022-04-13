@@ -25,7 +25,7 @@ Para iniciar o projeto é necessário a instalação do [Node.js](https://nodejs
       node --version
 
 
-## Rodando projeto
+## Rodando o projeto
 
       npm run start 
 
@@ -49,6 +49,7 @@ router.get('/Tatuadores', TatuadoresControllers.pegaTodosOsTatuadores);
 router.get('/Tatuadores/:id', TatuadoresControllers.mostraUmTatuador);
 router.post('/Tatuadores', TatuadoresControllers.criaTatuador);
 router.put('/Tatuadores/:id', TatuadoresControllers.atualizeTatuadores);
+router.delete('/Tatuadores/:id', TatuadoresControllers.apagaTatuadores);
 
 ```
 
