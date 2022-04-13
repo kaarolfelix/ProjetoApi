@@ -34,22 +34,33 @@ class TatuadoresControllers {
         }
       }
 
-      //atualizar um registro
+      
       static async atualizeTatuadores(req, res) {
         const { id } = req.params
         const novasInfos = req.body
         try {
-          await database.Tatuadores.update(novasInfos, { where: { id: Number(id) }})
+          await database.Tatuadores.update(novasInfos,
+            { where: { id: Number(id) }})
           const tatuadorAtualizado = await database.Tatuadores.findOne( { where: { 
           id: Number(id) }})
           return res.status(200).json(tatuadorAtualizado)
         } catch (error) {
-         return res.status(500).json(error.message)
+          return res.status(500).json(error.message)
         }
 
       }
 
-      //deletar um registro
+      
+      static async apagaTatuadores(req, res) {
+        const { id } = req.params
+        try {
+          await database.Tatuadores.destroy( { where: { id: Number(id) }})
+          return res.status(200).json( { mensagem: `id ${id} deletado`} )
+
+        } catch (error) {
+          return res.status(500).json(error.message)
+        }
+    } 
 
     }    
   

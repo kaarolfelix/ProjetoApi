@@ -7,5 +7,6 @@ router.get('/Tatuadores', TatuadoresControllers.pegaTodosOsTatuadores)
 router.get('/Tatuadores/:id', TatuadoresControllers.mostraUmTatuador)
 router.post('/Tatuadores', TatuadoresControllers.criaTatuador)
 router.put('/Tatuadores/:id', TatuadoresControllers.atualizeTatuadores)
+router.delete('/Tatuadores/:id', TatuadoresControllers.apagaTatuadores)
 
 module.exports = router
