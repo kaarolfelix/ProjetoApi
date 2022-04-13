@@ -18,7 +18,7 @@ Operações CRUD
 
 
 ## Dependências do projet 
-Para iniciar o projeto é necessário a instalação do [Node.js](https://nodejs.org/en/docs/), utilizamos a versão 16.14.2 
+Para iniciar o projeto é necessário a instalação do [Node.js](https://nodejs.org/en/docs/), utilizamos a versão 16.14.2  e o [Vs Code]_(https://code.visualstudio.com/)
 #### Após a instalação, entre no seu terminal e de o comando
      
       node --version
