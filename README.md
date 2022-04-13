@@ -65,7 +65,7 @@ router.delete('/Tatuadores/:id', TatuadoresControllers.apagaTatuadores);
 ##### Utilize o  Postman para realizar as requisições  das rotas
 
 
-
+![gif postman](https://user-images.githubusercontent.com/93998124/163221887-681059d9-b949-43ee-bf25-65d9d5663c35.gif)
 
 
 
