@@ -3,10 +3,7 @@
 
 
       
-  <a href="#Descrição"> Descrição </a> |
-  <a href="#rotas-da-API"> Rotas da aplicação </a> |
-  <a href="#Ferramentas utilizadas"> Ferramentas utilizadas </a>
-
+  
 ##  Descrição
 Projeto de encerramento módulo 4. escolhemos o tema Studio de tatuagens, com as entidades: Atendimento, Tatuadores, Fornecedores e Produtos. Para o desenvolvimento foi utilizado JavaScript com Node.js como linguagem, o MYSQL como banco de dados e também o express como framework. 
 
