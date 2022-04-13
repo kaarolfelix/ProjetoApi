@@ -17,9 +17,8 @@ Verbos HTTP com o padrão REST <br>
 Operações CRUD
 
 
-## Dependências do projeto
-Para iniciar o projeto é necessário a instalação do [Node.js](https://nodejs.org/en/docs/), utilizamos a versão 16.14.2
-
+## Dependências do projet 
+Para iniciar o projeto é necessário a instalação do [Node.js](https://nodejs.org/en/docs/), utilizamos a versão 16.14.2 
 #### Após a instalação, entre no seu terminal e de o comando
      
       node --version
@@ -59,7 +58,7 @@ router.delete('/Tatuadores/:id', TatuadoresControllers.apagaTatuadores);
 - [Node.js](https://nodejs.org/en/docs/)
 - [Sequelize](https://sequelize.org/)
 - [MYSQL](https://dev.mysql.com/downloads/workbench/)
-- [Postman](https://www.postman.com/)
+- [Postman](https://web.postman.co/workspace/My-Workspace~36166ad6-76f5-4fc6-8720-b1a98dc2963a/request/19839886-365a01b1-d1e0-4ac2-b7f5-f03e6e217fb8)
 
 
 ##### Utilize o  Postman para realizar as requisições  das rotas
